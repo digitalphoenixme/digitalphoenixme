@@ -52,7 +52,7 @@ _Model savings are modest because ~90.3% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: |
 | edgemac | 1% | 26% | 27% |
 | 975F3AC4-EE70-4114-B171-D87953270394 | -- | 17% | 13% |
-| Terminal | 41% | 10% | 9% |
+| Terminal | 42% | 10% | 9% |
 | AyuGramDesktop | -- | 9% | 9% |
 | WhatsApp | 1% | 4% | 4% |
 | electron | -- | 3% | 4% |
