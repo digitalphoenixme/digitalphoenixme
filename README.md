@@ -13,11 +13,11 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 9.2h | 68.6h | 384h | ~3,822h* |
-| User AI session hours | 2.2h | 16.3h | 34.9h | 48.1h |
+| Screen time (Mac) | 10.7h | 86.5h | 385.4h | ~3,822h* |
+| User AI session hours | 2.7h | 16.9h | 35.4h | 48.6h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 3.5h | 23.0h | 57.2h | 80.6h |
-| Interactive sessions | 1 | 11 | 29 | 54 |
+| AI concurrency hours | 4.2h | 23.6h | 57.8h | 81.3h |
+| Interactive sessions | 1 | 10 | 29 | 54 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -40,7 +40,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,255** | **14.5M** | **1.0M** | **266.2M** | **$139.10** | **$718.99** | **$557.03** |
 
-_529.5M total tokens processed. 89.9% cache hit rate._
+_529.6M total tokens processed. 89.9% cache hit rate._
 
 _$1,276.02 total saved ($718.99 caching + $557.03 model routing vs all-Opus)._
 
@@ -50,13 +50,13 @@ _Model savings are modest because ~89.9% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 24% | 23% | 24% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 4% | 21% | 19% |
-| AyuGramDesktop | 9% | 6% | 8% |
+| edgemac | 21% | 23% | 24% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 6% | 21% | 19% |
+| AyuGramDesktop | 12% | 6% | 8% |
 | Terminal | 10% | 7% | 8% |
 | Chrome | 1% | 6% | 4% |
+| WhatsApp | 3% | 3% | 3% |
 | antigravity | 2% | 5% | 3% |
-| WhatsApp | 3% | 4% | 3% |
 | electron | 2% | 3% | 3% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 7% | 3% | 3% |
 | airmail2 | 3% | 3% | 3% |
@@ -76,5 +76,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-12 17:40 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-12 20:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
