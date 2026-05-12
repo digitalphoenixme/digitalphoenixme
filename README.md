@@ -14,10 +14,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 9.5h | 68.6h | 384h | ~3,822h* |
-| User AI session hours | 0.0h | 14.2h | 32.7h | 46.0h |
+| User AI session hours | 0.2h | 14.4h | 32.9h | 46.2h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 19.6h | 53.6h | 77.1h |
-| Interactive sessions | 0 | 10 | 28 | 53 |
+| AI concurrency hours | 0.5h | 20.0h | 54.1h | 77.6h |
+| Interactive sessions | 1 | 11 | 29 | 54 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -34,32 +34,32 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | MiniMax-M2.7 | 551 | 474K | 141K | 42.2M | $16.21 | $114.20 | $64.91 |
 | mimo-v2-pro-free | 134 | 689K | 24K | 17.3M | $7.61 | $46.77 | $30.54 |
 | z-ai/glm-4.5-air:free | 105 | 1.2M | 22K | 3.9M | $5.25 | $10.73 | $21.02 |
+| qwen3-coder:480b-cloud | 35 | 1.6M | 3K | 0 | $5.00 | $0.00 | $20.05 |
 | qwen/qwen3-coder | 23 | 85K | 2K | 1.2M | $0.66 | $3.47 | $2.73 |
-| qwen3-coder:480b-cloud | 8 | 216K | 958 | 0 | $0.66 | $0.00 | $2.66 |
 | antigravity-gemini-3.1-pro | 47 | 135K | 1K | 621K | $0.60 | $1.68 | $2.48 |
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
-| **Total** | **3,228** | **13.1M** | **1.0M** | **266.2M** | **$134.76** | **$718.99** | **$539.64** |
+| **Total** | **3,255** | **14.5M** | **1.0M** | **266.2M** | **$139.10** | **$718.99** | **$557.03** |
 
-_527.2M total tokens processed. 90.3% cache hit rate._
+_528.6M total tokens processed. 90.1% cache hit rate._
 
-_$1,258.63 total saved ($718.99 caching + $539.64 model routing vs all-Opus)._
+_$1,276.02 total saved ($718.99 caching + $557.03 model routing vs all-Opus)._
 
-_Model savings are modest because ~90.3% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~90.1% of tokens are cache reads, where price differences between models are small._
 
 ## Top Apps by Screen Time
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 22% | 23% | 24% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 2% | 21% | 19% |
-| AyuGramDesktop | 5% | 6% | 8% |
-| Terminal | 2% | 6% | 7% |
+| edgemac | 17% | 23% | 24% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 1% | 21% | 19% |
+| AyuGramDesktop | 8% | 6% | 8% |
+| Terminal | 7% | 6% | 8% |
 | Chrome | 2% | 6% | 4% |
-| antigravity | 7% | 5% | 3% |
-| WhatsApp | 2% | 4% | 3% |
+| antigravity | 4% | 5% | 3% |
+| WhatsApp | 3% | 4% | 3% |
 | electron | -- | 3% | 3% |
-| airmail2 | 1% | 3% | 3% |
-| F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 2% | 3% |
+| airmail2 | 3% | 3% | 3% |
+| F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 3% | 3% | 3% |
 
 _Top 10 apps by foreground time share. Mac only._
 <!-- STATS-END -->
@@ -76,5 +76,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-12 13:37 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-12 14:38 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
