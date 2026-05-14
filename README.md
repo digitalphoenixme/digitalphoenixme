@@ -13,11 +13,11 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 7.9h | 90.2h | 370.8h | ~3,705h* |
-| User AI session hours | 0.0h | 10.5h | 36.3h | 49.5h |
+| Screen time (Mac) | 7.9h | 90.2h | 369.1h | ~3,705h* |
+| User AI session hours | 0.0h | 10.1h | 36.3h | 49.5h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 16.6h | 62.1h | 85.6h |
-| Interactive sessions | 0 | 10 | 30 | 55 |
+| AI concurrency hours | 0.0h | 16.1h | 62.1h | 85.6h |
+| Interactive sessions | 0 | 9 | 30 | 55 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -50,16 +50,16 @@ _Model savings are modest because ~89.8% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 15% | 23% | 25% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 4% | 19% | 18% |
+| edgemac | 16% | 23% | 25% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 3% | 19% | 17% |
 | AyuGramDesktop | 4% | 7% | 8% |
 | Terminal | -- | 5% | 7% |
-| antigravity | 13% | 9% | 5% |
-| Chrome | 7% | 6% | 4% |
-| Safari | 30% | 5% | 3% |
+| antigravity | 14% | 9% | 5% |
+| Chrome | 13% | 6% | 4% |
+| Safari | 26% | 5% | 3% |
 | WhatsApp | -- | 2% | 3% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 1% | 3% | 3% |
-| electron | 1% | 2% | 3% |
+| airmail2 | 2% | 2% | 3% |
 
 _Top 10 apps by foreground time share. Mac only._
 <!-- STATS-END -->
@@ -76,5 +76,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-14 17:23 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-14 18:24 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
