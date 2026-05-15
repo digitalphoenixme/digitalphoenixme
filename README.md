@@ -50,8 +50,8 @@ _Model savings are modest because ~89.8% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 32% | 23% | 25% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 27% | 19% | 19% |
+| edgemac | 29% | 23% | 25% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 29% | 20% | 19% |
 | AyuGramDesktop | 7% | 8% | 7% |
 | antigravity | 6% | 10% | 7% |
 | Terminal | 1% | 3% | 5% |
@@ -76,5 +76,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-15 20:49 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-15 21:49 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
