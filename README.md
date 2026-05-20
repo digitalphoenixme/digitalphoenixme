@@ -14,10 +14,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 3.5h | 68.6h | 341.2h | ~3,537h* |
-| User AI session hours | 0.0h | 0.0h | 35.4h | 49.5h |
+| User AI session hours | 0.3h | 0.3h | 35.7h | 49.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 0.0h | 61.2h | 85.6h |
-| Interactive sessions | 0 | 0 | 28 | 55 |
+| AI concurrency hours | 0.4h | 0.4h | 61.6h | 86.0h |
+| Interactive sessions | 2 | 2 | 30 | 57 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -28,37 +28,37 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| MiniMax-M2.5 | 1,662 | 1.8M | 558K | 142.5M | $56.70 | $384.86 | $226.84 |
+| MiniMax-M2.5 | 1,663 | 1.8M | 558K | 142.5M | $56.70 | $384.86 | $226.84 |
 | hy3-preview-free | 649 | 1.4M | 279K | 58.2M | $26.00 | $157.19 | $104.07 |
 | nemotron-3-super-free | 47 | 6.9M | 7K | 0 | $20.99 | $0.00 | $84.00 |
-| MiniMax-M2.7 | 551 | 474K | 141K | 42.2M | $16.21 | $114.20 | $64.91 |
+| MiniMax-M2.7 | 552 | 474K | 141K | 42.2M | $16.21 | $114.20 | $64.91 |
+| qwen3-coder:480b-cloud | 68 | 3.2M | 6K | 0 | $9.89 | $0.00 | $39.59 |
 | mimo-v2-pro-free | 134 | 689K | 24K | 17.3M | $7.61 | $46.77 | $30.54 |
-| qwen3-coder:480b-cloud | 43 | 2.0M | 3K | 0 | $6.05 | $0.00 | $24.22 |
 | z-ai/glm-4.5-air:free | 105 | 1.2M | 22K | 3.9M | $5.25 | $10.73 | $21.02 |
 | qwen/qwen3-coder | 23 | 85K | 2K | 1.2M | $0.66 | $3.47 | $2.73 |
 | antigravity-gemini-3.1-pro | 47 | 135K | 1K | 621K | $0.60 | $1.68 | $2.48 |
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
-| **Total** | **3,263** | **14.9M** | **1.0M** | **266.2M** | **$140.15** | **$718.99** | **$561.20** |
+| **Total** | **3,290** | **16.1M** | **1.0M** | **266.2M** | **$143.99** | **$718.99** | **$576.57** |
 
-_530.0M total tokens processed. 89.8% cache hit rate._
+_531.2M total tokens processed. 89.6% cache hit rate._
 
-_$1,280.19 total saved ($718.99 caching + $561.20 model routing vs all-Opus)._
+_$1,295.56 total saved ($718.99 caching + $576.57 model routing vs all-Opus)._
 
-_Model savings are modest because ~89.8% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89.6% of tokens are cache reads, where price differences between models are small._
 
 ## Top Apps by Screen Time
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 6% | 24% | 23% |
-| edgemac | 13% | 22% | 21% |
-| antigravity | 15% | 10% | 11% |
-| Safari | 34% | 10% | 7% |
-| AyuGramDesktop | -- | 7% | 7% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 5% | 24% | 23% |
+| edgemac | 10% | 22% | 20% |
+| antigravity | 12% | 10% | 11% |
+| Safari | 39% | 10% | 8% |
+| AyuGramDesktop | 1% | 7% | 7% |
 | Chrome | -- | 3% | 5% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 3% | 3% |
 | WhatsApp | -- | 3% | 3% |
-| Terminal | -- | 1% | 2% |
+| Terminal | 5% | 1% | 3% |
 | Finder | 3% | 2% | 2% |
 
 _Top 10 apps by foreground time share. Mac only._
@@ -76,5 +76,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-20 08:19 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-20 09:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
