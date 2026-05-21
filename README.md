@@ -51,16 +51,16 @@ _Model savings are modest because ~88.8% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 13% | 26% | 23% |
-| edgemac | 20% | 21% | 21% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 11% | 26% | 23% |
+| edgemac | 17% | 21% | 21% |
 | antigravity | -- | 8% | 9% |
-| Safari | 17% | 12% | 9% |
-| AyuGramDesktop | 6% | 6% | 6% |
+| Safari | 18% | 12% | 9% |
+| AyuGramDesktop | 5% | 6% | 6% |
 | Chrome | -- | 1% | 4% |
 | Terminal | 2% | 3% | 3% |
 | WhatsApp | 4% | 4% | 3% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 1% | 3% | 3% |
-| Finder | 2% | 1% | 2% |
+| Finder | 1% | 1% | 2% |
 
 _Top 10 apps by foreground time share. Mac only._
 <!-- STATS-END -->
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-21 22:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-21 23:07 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
