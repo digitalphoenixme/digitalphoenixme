@@ -13,7 +13,7 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 12.7h | 79.9h | 303.9h | ~3,504h* |
+| Screen time (Mac) | 14.4h | 81.6h | 305.6h | ~3,504h* |
 | User AI session hours | 0.0h | 1.8h | 37.0h | 51.3h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 0.0h | 10.9h | 71.8h | 96.4h |
@@ -52,7 +52,7 @@ _Model savings are modest because ~88.8% of tokens are cache reads, where price 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
 | 975F3AC4-EE70-4114-B171-D87953270394 | 13% | 26% | 22% |
-| edgemac | 18% | 20% | 22% |
+| edgemac | 17% | 20% | 22% |
 | Safari | 17% | 12% | 10% |
 | antigravity | -- | 8% | 9% |
 | AyuGramDesktop | 7% | 5% | 7% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-22 01:18 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-22 02:34 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
