@@ -14,9 +14,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 8.4h | 83.3h | 314.1h | ~3,551h* |
-| User AI session hours | 0.0h | 1.8h | 35.5h | 51.3h |
+| User AI session hours | 0.1h | 1.9h | 35.6h | 51.4h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 10.9h | 68.9h | 96.4h |
+| AI concurrency hours | 0.1h | 11.0h | 69.0h | 96.6h |
 | Interactive sessions | 1 | 3 | 29 | 58 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -30,7 +30,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | MiniMax-M2.5 | 1,663 | 1.8M | 558K | 142.5M | $56.70 | $384.86 | $226.84 |
 | hy3-preview-free | 649 | 1.4M | 279K | 58.2M | $26.00 | $157.19 | $104.07 |
-| nemotron-3-super-free | 47 | 6.9M | 7K | 0 | $20.99 | $0.00 | $84.00 |
+| nemotron-3-super-free | 57 | 7.4M | 7K | 0 | $22.31 | $0.00 | $89.32 |
 | MiniMax-M2.7 | 552 | 474K | 141K | 42.2M | $16.21 | $114.20 | $64.91 |
 | qwen3-coder:480b-cloud | 83 | 4.4M | 8K | 0 | $13.51 | $0.00 | $54.07 |
 | openrouter/free | 64 | 3.7M | 9K | 886K | $11.58 | $2.39 | $46.39 |
@@ -39,27 +39,27 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | qwen/qwen3-coder | 23 | 85K | 2K | 1.2M | $0.66 | $3.47 | $2.73 |
 | antigravity-gemini-3.1-pro | 47 | 135K | 1K | 621K | $0.60 | $1.68 | $2.48 |
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
-| **Total** | **3,371** | **21.1M** | **1.0M** | **267.1M** | **$159.19** | **$721.38** | **$637.44** |
+| **Total** | **3,381** | **21.5M** | **1.0M** | **267.1M** | **$160.51** | **$721.38** | **$642.75** |
 
-_537.3M total tokens processed. 88.8% cache hit rate._
+_537.7M total tokens processed. 88.7% cache hit rate._
 
-_$1,358.82 total saved ($721.38 caching + $637.44 model routing vs all-Opus)._
+_$1,364.14 total saved ($721.38 caching + $642.75 model routing vs all-Opus)._
 
-_Model savings are modest because ~88.8% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~88.7% of tokens are cache reads, where price differences between models are small._
 
 ## Top Apps by Screen Time
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
 | 975F3AC4-EE70-4114-B171-D87953270394 | -- | 25% | 23% |
-| edgemac | 3% | 17% | 21% |
-| Safari | 37% | 17% | 11% |
+| edgemac | 8% | 17% | 20% |
+| Safari | 39% | 18% | 12% |
 | antigravity | -- | 6% | 8% |
 | AyuGramDesktop | -- | 5% | 6% |
-| Terminal | 37% | 7% | 5% |
+| Terminal | 40% | 7% | 5% |
 | WhatsApp | -- | 4% | 3% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 2% | 3% |
-| Finder | 9% | 2% | 2% |
+| Finder | 3% | 2% | 2% |
 | airmail2 | -- | 2% | 2% |
 
 _Top 10 apps by foreground time share. Mac only._
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-23 04:24 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-23 05:24 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
