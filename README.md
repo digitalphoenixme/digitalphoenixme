@@ -41,7 +41,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,402** | **22.6M** | **1.0M** | **267.1M** | **$163.80** | **$721.38** | **$655.93** |
 
-_554.5M total tokens processed. 88.8% cache hit rate._
+_554.7M total tokens processed. 88.8% cache hit rate._
 
 _$1,377.31 total saved ($721.38 caching + $655.93 model routing vs all-Opus)._
 
@@ -51,13 +51,13 @@ _Model savings are modest because ~88.8% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 21% | 23% | 23% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 12% | 18% | 21% |
+| edgemac | 27% | 24% | 23% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 11% | 18% | 21% |
 | Safari | 11% | 18% | 13% |
-| Terminal | 25% | 10% | 6% |
+| Terminal | 22% | 10% | 6% |
 | AyuGramDesktop | 7% | 4% | 5% |
 | antigravity | -- | 1% | 5% |
-| WhatsApp | 10% | 6% | 5% |
+| WhatsApp | 11% | 6% | 5% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 1% | 2% | 2% |
 | airmail2 | 3% | 2% | 2% |
 | 2493B611-0DE3-4DCD-9220-FC073627B99F | -- | 1% | 2% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-26 19:37 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-26 20:37 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
