@@ -13,11 +13,11 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 8.3h | 66.9h | 287.7h | ~3,537h* |
-| User AI session hours | 1.1h | 3.0h | 36.7h | 52.5h |
+| Screen time (Mac) | 9.9h | 68.5h | 289.3h | ~3,537h* |
+| User AI session hours | 1.4h | 3.3h | 36.9h | 52.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 1.5h | 12.5h | 70.5h | 98.1h |
-| Interactive sessions | 2 | 5 | 31 | 60 |
+| AI concurrency hours | 2.1h | 13.1h | 71.0h | 98.6h |
+| Interactive sessions | 3 | 6 | 32 | 61 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -41,22 +41,22 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,402** | **22.6M** | **1.0M** | **267.1M** | **$163.80** | **$721.38** | **$655.93** |
 
-_558.1M total tokens processed. 88.9% cache hit rate._
+_572.0M total tokens processed. 89.1% cache hit rate._
 
 _$1,377.31 total saved ($721.38 caching + $655.93 model routing vs all-Opus)._
 
-_Model savings are modest because ~88.9% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89.1% of tokens are cache reads, where price differences between models are small._
 
 ## Top Apps by Screen Time
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 24% | 23% | 23% |
+| edgemac | 23% | 23% | 23% |
 | 975F3AC4-EE70-4114-B171-D87953270394 | 13% | 18% | 21% |
-| Safari | 9% | 18% | 13% |
+| Safari | 10% | 18% | 13% |
 | Terminal | 18% | 10% | 6% |
-| AyuGramDesktop | 8% | 4% | 5% |
-| WhatsApp | 11% | 7% | 5% |
+| AyuGramDesktop | 9% | 4% | 6% |
+| WhatsApp | 10% | 7% | 5% |
 | antigravity | -- | 1% | 5% |
 | airmail2 | 4% | 2% | 2% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 1% | 2% | 2% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-27 00:20 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-27 01:38 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
