@@ -17,7 +17,7 @@
 | User AI session hours | 4.4h | 4.8h | 39.6h | 56.0h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 7.9h | 9.0h | 76.3h | 104.9h |
-| Interactive sessions | 3 | 5 | 32 | 61 |
+| Interactive sessions | 2 | 5 | 32 | 61 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-27 15:35 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-27 16:35 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
