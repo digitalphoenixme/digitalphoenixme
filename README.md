@@ -13,10 +13,10 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 9.9h | 68.5h | 289.3h | ~3,537h* |
-| User AI session hours | 3.2h | 5.1h | 38.8h | 54.6h |
+| Screen time (Mac) | 7.2h | 68.5h | 289.3h | ~3,537h* |
+| User AI session hours | 3.8h | 5.7h | 39.4h | 55.2h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 6.0h | 17.0h | 75.0h | 102.6h |
+| AI concurrency hours | 7.0h | 18.0h | 76.0h | 103.6h |
 | Interactive sessions | 3 | 6 | 32 | 61 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -41,20 +41,20 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,403** | **22.6M** | **1.0M** | **267.1M** | **$163.80** | **$721.38** | **$655.93** |
 
-_603.2M total tokens processed. 89.5% cache hit rate._
+_624.1M total tokens processed. 89.7% cache hit rate._
 
 _$1,377.31 total saved ($721.38 caching + $655.93 model routing vs all-Opus)._
 
-_Model savings are modest because ~89.5% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89.7% of tokens are cache reads, where price differences between models are small._
 
 ## Top Apps by Screen Time
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 1% | 23% | 23% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 30% | 20% | 22% |
-| Safari | 45% | 17% | 14% |
-| Terminal | 22% | 11% | 6% |
+| edgemac | 10% | 23% | 23% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 36% | 20% | 22% |
+| Safari | 32% | 17% | 14% |
+| Terminal | 20% | 11% | 6% |
 | AyuGramDesktop | -- | 4% | 5% |
 | WhatsApp | -- | 7% | 5% |
 | antigravity | -- | -- | 5% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-27 05:39 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-27 06:39 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
