@@ -13,11 +13,11 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 7.2h | 68.5h | 289.3h | ~3,541h* |
-| User AI session hours | 4.4h | 6.3h | 39.9h | 55.8h |
+| Screen time (Mac) | 2.4h | 68.5h | 289.3h | ~3,541h* |
+| User AI session hours | 4.6h | 4.8h | 40.1h | 56.0h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 8.0h | 19.1h | 77.0h | 104.6h |
-| Interactive sessions | 3 | 6 | 32 | 61 |
+| AI concurrency hours | 8.3h | 16.9h | 77.2h | 104.9h |
+| Interactive sessions | 3 | 5 | 32 | 61 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -41,7 +41,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,403** | **22.6M** | **1.0M** | **267.1M** | **$163.80** | **$721.38** | **$655.93** |
 
-_644.1M total tokens processed. 90% cache hit rate._
+_647.9M total tokens processed. 90% cache hit rate._
 
 _$1,377.31 total saved ($721.38 caching + $655.93 model routing vs all-Opus)._
 
@@ -51,11 +51,11 @@ _Model savings are modest because ~90% of tokens are cache reads, where price di
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 20% | 23% | 23% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 35% | 20% | 22% |
-| Safari | 24% | 17% | 13% |
+| edgemac | 22% | 24% | 23% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 33% | 21% | 22% |
+| Safari | 22% | 16% | 13% |
 | Terminal | 20% | 11% | 6% |
-| AyuGramDesktop | -- | 4% | 5% |
+| AyuGramDesktop | 1% | 4% | 5% |
 | WhatsApp | -- | 7% | 5% |
 | antigravity | -- | -- | 5% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 2% | 2% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-27 07:40 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-27 11:11 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
