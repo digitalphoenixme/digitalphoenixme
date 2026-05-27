@@ -14,9 +14,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 9.9h | 68.5h | 289.3h | ~3,537h* |
-| User AI session hours | 1.4h | 3.3h | 36.9h | 52.8h |
+| User AI session hours | 1.5h | 3.4h | 37.1h | 52.9h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 2.1h | 13.1h | 71.0h | 98.6h |
+| AI concurrency hours | 2.5h | 13.5h | 71.5h | 99.0h |
 | Interactive sessions | 3 | 6 | 32 | 61 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -41,24 +41,24 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,402** | **22.6M** | **1.0M** | **267.1M** | **$163.80** | **$721.38** | **$655.93** |
 
-_572.0M total tokens processed. 89.1% cache hit rate._
+_581.0M total tokens processed. 89.2% cache hit rate._
 
 _$1,377.31 total saved ($721.38 caching + $655.93 model routing vs all-Opus)._
 
-_Model savings are modest because ~89.1% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89.2% of tokens are cache reads, where price differences between models are small._
 
 ## Top Apps by Screen Time
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
 | edgemac | 23% | 23% | 23% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 13% | 18% | 21% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 16% | 18% | 21% |
 | Safari | 10% | 18% | 13% |
 | Terminal | 18% | 10% | 6% |
 | AyuGramDesktop | 9% | 4% | 6% |
 | WhatsApp | 10% | 7% | 5% |
 | antigravity | -- | 1% | 5% |
-| airmail2 | 4% | 2% | 2% |
+| airmail2 | 3% | 2% | 2% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 1% | 2% | 2% |
 | 2493B611-0DE3-4DCD-9220-FC073627B99F | -- | 1% | 2% |
 
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-27 01:38 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-27 02:38 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
