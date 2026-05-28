@@ -13,10 +13,10 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 9.4h | 81.7h | 291.6h | ~3,541h* |
-| User AI session hours | 3.9h | 7.5h | 42.4h | 58.8h |
+| Screen time (Mac) | 9.4h | 82.7h | 284.2h | ~3,541h* |
+| User AI session hours | 4.1h | 8.3h | 43.2h | 59.5h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 6.3h | 12.9h | 80.8h | 109.4h |
+| AI concurrency hours | 6.4h | 14.1h | 81.9h | 110.4h |
 | Interactive sessions | 2 | 5 | 31 | 62 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -41,24 +41,24 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,419** | **24.3M** | **1.0M** | **267.1M** | **$168.98** | **$721.38** | **$676.63** |
 
-_725.5M total tokens processed. 90.6% cache hit rate._
+_743.9M total tokens processed. 90.8% cache hit rate._
 
 _$1,398.01 total saved ($721.38 caching + $676.63 model routing vs all-Opus)._
 
-_Model savings are modest because ~90.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~90.8% of tokens are cache reads, where price differences between models are small._
 
 ## Top Apps by Screen Time
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 1% | 20% | 23% |
-| edgemac | 4% | 20% | 21% |
-| Safari | 50% | 18% | 16% |
-| Terminal | 30% | 13% | 9% |
-| WhatsApp | -- | 7% | 5% |
-| AyuGramDesktop | 3% | 5% | 5% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 4% | 20% | 23% |
+| edgemac | 17% | 20% | 21% |
+| Safari | 39% | 18% | 16% |
+| Terminal | 28% | 13% | 9% |
+| WhatsApp | -- | 6% | 5% |
+| AyuGramDesktop | 2% | 5% | 5% |
 | antigravity | -- | -- | 4% |
-| F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 2% | 2% |
+| F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 1% | 2% |
 | airmail2 | 1% | 2% | 2% |
 | youtube-music | -- | 3% | 2% |
 
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-28 06:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-28 07:03 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
