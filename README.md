@@ -13,7 +13,7 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 11.2h | 65.5h | 291h | ~3,537h* |
+| Screen time (Mac) | 11.2h | 65.5h | 287.2h | ~3,537h* |
 | User AI session hours | 5.2h | 10.2h | 45.1h | 61.5h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 8.3h | 17.4h | 85.2h | 113.8h |
@@ -51,12 +51,12 @@ _Model savings are modest because ~90.7% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 8% | 20% | 22% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 12% | 20% | 23% |
 | edgemac | 10% | 20% | 20% |
-| Safari | 25% | 18% | 16% |
-| Terminal | 30% | 14% | 9% |
+| Safari | 24% | 18% | 16% |
+| Terminal | 28% | 14% | 9% |
 | WhatsApp | 2% | 6% | 5% |
-| AyuGramDesktop | 9% | 5% | 5% |
+| AyuGramDesktop | 8% | 5% | 5% |
 | antigravity | -- | -- | 4% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 1% | 2% | 2% |
 | airmail2 | 1% | 1% | 2% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-28 19:19 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-28 20:48 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
