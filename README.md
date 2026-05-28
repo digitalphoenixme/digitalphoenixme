@@ -13,11 +13,11 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 4.4h | 84.7h | 284.2h | ~3,537h* |
-| User AI session hours | 4.6h | 9.3h | 44.2h | 60.6h |
+| Screen time (Mac) | 4.4h | 85.5h | 284.2h | ~3,537h* |
+| User AI session hours | 4.9h | 9.6h | 44.5h | 60.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 7.6h | 16.0h | 83.9h | 112.5h |
-| Interactive sessions | 3 | 6 | 32 | 63 |
+| AI concurrency hours | 8.2h | 16.6h | 84.5h | 113.0h |
+| Interactive sessions | 4 | 7 | 33 | 64 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -30,8 +30,8 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | MiniMax-M2.5 | 1,663 | 1.8M | 558K | 142.5M | $56.70 | $384.86 | $226.84 |
 | hy3-preview-free | 649 | 1.4M | 279K | 58.2M | $26.00 | $157.19 | $104.07 |
-| nemotron-3-super-free | 58 | 7.4M | 7K | 0 | $22.31 | $0.00 | $89.32 |
-| qwen3-coder:480b-cloud | 121 | 7.2M | 12K | 0 | $21.98 | $0.00 | $87.94 |
+| nemotron-3-super-free | 62 | 7.6M | 7K | 0 | $23.02 | $0.00 | $92.11 |
+| qwen3-coder:480b-cloud | 122 | 7.2M | 12K | 0 | $21.98 | $0.00 | $87.94 |
 | MiniMax-M2.7 | 552 | 474K | 141K | 42.2M | $16.21 | $114.20 | $64.91 |
 | openrouter/free | 64 | 3.7M | 9K | 886K | $11.58 | $2.39 | $46.39 |
 | mimo-v2-pro-free | 134 | 689K | 24K | 17.3M | $7.61 | $46.77 | $30.54 |
@@ -39,11 +39,11 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | qwen/qwen3-coder | 23 | 85K | 2K | 1.2M | $0.66 | $3.47 | $2.73 |
 | antigravity-gemini-3.1-pro | 47 | 135K | 1K | 621K | $0.60 | $1.68 | $2.48 |
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
-| **Total** | **3,420** | **24.3M** | **1.0M** | **267.1M** | **$168.98** | **$721.38** | **$676.63** |
+| **Total** | **3,425** | **24.6M** | **1.0M** | **267.1M** | **$169.69** | **$721.38** | **$679.42** |
 
-_762.3M total tokens processed. 90.8% cache hit rate._
+_763.8M total tokens processed. 90.8% cache hit rate._
 
-_$1,398.01 total saved ($721.38 caching + $676.63 model routing vs all-Opus)._
+_$1,400.80 total saved ($721.38 caching + $679.42 model routing vs all-Opus)._
 
 _Model savings are modest because ~90.8% of tokens are cache reads, where price differences between models are small._
 
@@ -51,15 +51,15 @@ _Model savings are modest because ~90.8% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 2% | 20% | 23% |
-| edgemac | 12% | 20% | 21% |
-| Safari | 35% | 19% | 16% |
-| Terminal | 40% | 14% | 9% |
-| WhatsApp | -- | 6% | 5% |
-| AyuGramDesktop | 1% | 5% | 5% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 2% | 19% | 22% |
+| edgemac | 13% | 20% | 21% |
+| Safari | 30% | 19% | 16% |
+| Terminal | 39% | 14% | 9% |
+| WhatsApp | 2% | 6% | 5% |
+| AyuGramDesktop | 2% | 5% | 5% |
 | antigravity | -- | -- | 4% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 1% | 2% |
-| airmail2 | 1% | 2% | 2% |
+| airmail2 | -- | 2% | 2% |
 | youtube-music | -- | 3% | 2% |
 
 _Top 10 apps by foreground time share. Mac only._
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-28 09:05 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-28 10:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
