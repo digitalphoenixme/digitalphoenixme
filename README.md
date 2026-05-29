@@ -13,10 +13,10 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 8h | 86.6h | 288.5h | ~3,537h* |
-| User AI session hours | 6.2h | 12.9h | 47.8h | 64.2h |
+| Screen time (Mac) | 8h | 65h | 288.5h | ~3,537h* |
+| User AI session hours | 5.1h | 13.0h | 47.6h | 64.3h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 11.6h | 23.5h | 91.3h | 119.9h |
+| AI concurrency hours | 10.6h | 24.0h | 91.0h | 120.4h |
 | Interactive sessions | 4 | 8 | 34 | 65 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -41,7 +41,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,439** | **25.6M** | **1.0M** | **267.1M** | **$172.76** | **$721.38** | **$691.70** |
 
-_861.8M total tokens processed. 91.4% cache hit rate._
+_863.7M total tokens processed. 91.4% cache hit rate._
 
 _$1,413.08 total saved ($721.38 caching + $691.70 model routing vs all-Opus)._
 
@@ -52,15 +52,15 @@ _Model savings are modest because ~91.4% of tokens are cache reads, where price 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
 | 975F3AC4-EE70-4114-B171-D87953270394 | -- | 21% | 23% |
-| edgemac | -- | 19% | 20% |
-| Safari | 58% | 19% | 18% |
-| Terminal | 35% | 16% | 11% |
+| edgemac | 21% | 19% | 20% |
+| Safari | 30% | 19% | 18% |
+| Terminal | 22% | 16% | 11% |
 | WhatsApp | -- | 6% | 6% |
 | AyuGramDesktop | -- | 5% | 5% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 2% | 2% |
 | youtube-music | -- | 3% | 2% |
+| airmail2 | 4% | 1% | 2% |
 | antigravity | -- | -- | 2% |
-| airmail2 | 1% | 1% | 2% |
 
 _Top 10 apps by foreground time share. Mac only._
 <!-- STATS-END -->
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-29 04:50 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-29 06:27 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
