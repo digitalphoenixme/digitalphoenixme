@@ -14,9 +14,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 15h | 72.9h | 294.6h | ~3,559h* |
-| User AI session hours | 3.7h | 16.6h | 38.9h | 68.0h |
+| User AI session hours | 4.6h | 17.4h | 39.6h | 68.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 4.7h | 28.6h | 73.1h | 125.2h |
+| AI concurrency hours | 5.7h | 29.6h | 73.8h | 126.2h |
 | Interactive sessions | 2 | 10 | 35 | 68 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -41,20 +41,20 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
 | **Total** | **3,440** | **25.6M** | **1.0M** | **267.1M** | **$172.76** | **$721.38** | **$691.70** |
 
-_904.6M total tokens processed. 91.6% cache hit rate._
+_915.7M total tokens processed. 91.7% cache hit rate._
 
 _$1,413.08 total saved ($721.38 caching + $691.70 model routing vs all-Opus)._
 
-_Model savings are modest because ~91.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~91.7% of tokens are cache reads, where price differences between models are small._
 
 ## Top Apps by Screen Time
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| 975F3AC4-EE70-4114-B171-D87953270394 | -- | 21% | 22% |
-| edgemac | 27% | 18% | 19% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 55% | 22% | 22% |
+| edgemac | 22% | 18% | 19% |
 | Safari | -- | 15% | 17% |
-| Terminal | 73% | 15% | 14% |
+| Terminal | 18% | 15% | 14% |
 | AyuGramDesktop | -- | 7% | 5% |
 | WhatsApp | -- | 5% | 5% |
 | youtube-music | -- | 5% | 3% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-01 04:08 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-01 05:08 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
