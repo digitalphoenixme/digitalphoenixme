@@ -13,11 +13,11 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 14.4h | 75.6h | 285.8h | ~3,599h* |
-| User AI session hours | 3.8h | 17.4h | 39.1h | 68.8h |
+| Screen time (Mac) | 16.2h | 77.4h | 287.6h | ~3,599h* |
+| User AI session hours | 2.0h | 17.4h | 39.1h | 68.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 4.9h | 29.6h | 72.7h | 126.2h |
-| Interactive sessions | 1 | 10 | 33 | 68 |
+| AI concurrency hours | 2.5h | 29.6h | 72.7h | 126.2h |
+| Interactive sessions | 2 | 11 | 34 | 69 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -31,7 +31,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | MiniMax-M2.5 | 1,663 | 1.8M | 558K | 142.5M | $56.70 | $384.86 | $226.84 |
 | nemotron-3-super-free | 74 | 8.6M | 8K | 0 | $26.09 | $0.00 | $104.39 |
 | hy3-preview-free | 649 | 1.4M | 279K | 58.2M | $26.00 | $157.19 | $104.07 |
-| qwen3-coder:480b-cloud | 123 | 7.2M | 12K | 0 | $21.98 | $0.00 | $87.94 |
+| qwen3-coder:480b-cloud | 124 | 7.2M | 12K | 0 | $21.98 | $0.00 | $87.94 |
 | MiniMax-M2.7 | 552 | 474K | 141K | 42.2M | $16.21 | $114.20 | $64.91 |
 | openrouter/free | 65 | 3.7M | 9K | 886K | $11.58 | $2.39 | $46.39 |
 | mimo-v2-pro-free | 134 | 689K | 24K | 17.3M | $7.61 | $46.77 | $30.54 |
@@ -39,9 +39,9 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | qwen/qwen3-coder | 23 | 85K | 2K | 1.2M | $0.66 | $3.47 | $2.73 |
 | antigravity-gemini-3.1-pro | 47 | 135K | 1K | 621K | $0.60 | $1.68 | $2.48 |
 | openai/gpt-oss-20b:free | 2 | 28K | 120 | 28K | $0.08 | $0.08 | $0.38 |
-| **Total** | **3,440** | **25.6M** | **1.0M** | **267.1M** | **$172.76** | **$721.38** | **$691.70** |
+| **Total** | **3,441** | **25.6M** | **1.0M** | **267.1M** | **$172.76** | **$721.38** | **$691.70** |
 
-_916.2M total tokens processed. 91.7% cache hit rate._
+_916.4M total tokens processed. 91.7% cache hit rate._
 
 _$1,413.08 total saved ($721.38 caching + $691.70 model routing vs all-Opus)._
 
@@ -51,12 +51,12 @@ _Model savings are modest because ~91.7% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 46% | 24% | 23% |
-| edgemac | 15% | 14% | 19% |
-| Safari | 2% | 15% | 17% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 46% | 25% | 23% |
+| edgemac | 14% | 15% | 19% |
+| Safari | 3% | 15% | 16% |
 | Terminal | 7% | 16% | 13% |
 | AyuGramDesktop | 4% | 7% | 5% |
-| WhatsApp | 2% | 4% | 5% |
+| WhatsApp | 4% | 4% | 5% |
 | youtube-music | -- | 5% | 3% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | 1% | 3% | 2% |
 | Signal | -- | -- | 2% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-01 19:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-01 21:27 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
