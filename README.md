@@ -13,7 +13,7 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 5.4h | 102.3h | 315.5h | ~3,796h* |
+| Screen time (Mac) | 10.3h | 104.8h | 324.4h | ~3,796h* |
 | User AI session hours | 0.0h | 0.0h | 22.9h | 68.9h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 0.0h | 0.0h | 49.1h | 126.3h |
@@ -51,16 +51,16 @@ _Model savings are modest because ~91.7% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| 975F3AC4-EE70-4114-B171-D87953270394 | 21% | 19% | 20% |
-| edgemac | 16% | 18% | 19% |
-| Safari | 20% | 12% | 14% |
-| Terminal | 2% | 6% | 11% |
-| AyuGramDesktop | -- | 4% | 6% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | 20% | 19% | 20% |
+| edgemac | 15% | 18% | 19% |
+| Safari | 19% | 12% | 14% |
+| Terminal | 9% | 6% | 11% |
+| AyuGramDesktop | 1% | 4% | 6% |
 | 2493B611-0DE3-4DCD-9220-FC073627B99F | -- | 13% | 6% |
-| WhatsApp | 15% | 3% | 4% |
+| WhatsApp | 14% | 3% | 4% |
 | F5CA8ACE-9DC5-48E9-BFAA-9D2D38681231 | -- | 3% | 3% |
 | youtube-music | -- | -- | 3% |
-| Maestro-setapp | 19% | 5% | 2% |
+| Maestro-setapp | 17% | 5% | 2% |
 
 _Top 10 apps by foreground time share. Mac only._
 <!-- STATS-END -->
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-09 08:05 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-09 18:56 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
