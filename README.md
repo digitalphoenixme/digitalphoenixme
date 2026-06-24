@@ -13,7 +13,7 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 8.4h | 74.5h | 357.4h | ~3,924h* |
+| Screen time (Mac) | 2.8h | 74.5h | 357.4h | ~3,924h* |
 | User AI session hours | 0.0h | 0.0h | 17.5h | 68.9h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 0.0h | 0.0h | 29.7h | 126.3h |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-24 08:13 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-24 12:59 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
