@@ -14,10 +14,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0.4h | 82h | 356.5h | ~3,924h* |
-| User AI session hours | 0.0h | 0.0h | 17.5h | 68.9h |
+| User AI session hours | 0.0h | 0.0h | 17.3h | 68.9h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 0.0h | 29.7h | 126.3h |
-| Interactive sessions | 0 | 0 | 11 | 69 |
+| AI concurrency hours | 0.0h | 0.0h | 29.3h | 126.3h |
+| Interactive sessions | 0 | 0 | 10 | 69 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -52,10 +52,10 @@ _Model savings are modest because ~91.7% of tokens are cache reads, where price 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
 | edgemac | 78% | 15% | 19% |
-| 975F3AC4-EE70-4114-B171-D87953270394 | -- | 13% | 17% |
+| 975F3AC4-EE70-4114-B171-D87953270394 | -- | 14% | 17% |
 | C0FBDA4A-A1B7-4D33-887E-2666C068D71F | -- | 22% | 12% |
 | Safari | -- | 8% | 9% |
-| WhatsApp | -- | 8% | 9% |
+| WhatsApp | -- | 7% | 9% |
 | AyuGramDesktop | -- | 6% | 6% |
 | kaku | -- | 7% | 6% |
 | Maestro-setapp | -- | 1% | 3% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-25 14:23 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-25 18:29 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
