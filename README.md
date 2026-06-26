@@ -51,13 +51,13 @@ _Model savings are modest because ~91.7% of tokens are cache reads, where price 
 
 | App | 24h | 7 Days | 28 Days |
 | --- | ---: | ---: | ---: |
-| edgemac | 53% | 18% | 20% |
+| edgemac | 44% | 18% | 20% |
 | 975F3AC4-EE70-4114-B171-D87953270394 | -- | 14% | 17% |
 | C0FBDA4A-A1B7-4D33-887E-2666C068D71F | -- | 16% | 12% |
-| Safari | 5% | 8% | 9% |
-| WhatsApp | -- | 6% | 9% |
+| Safari | 14% | 8% | 9% |
+| WhatsApp | 1% | 6% | 9% |
 | AyuGramDesktop | 2% | 6% | 6% |
-| kaku | 4% | 8% | 6% |
+| kaku | 10% | 8% | 6% |
 | 2493B611-0DE3-4DCD-9220-FC073627B99F | 5% | 5% | 3% |
 | Maestro-setapp | -- | 1% | 3% |
 | youtube-music | -- | 6% | 2% |
@@ -77,5 +77,5 @@ _Top 10 apps by foreground time share. Mac only._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-25 23:44 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-26 00:44 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
